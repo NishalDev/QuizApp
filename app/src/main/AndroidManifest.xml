@@ -15,7 +15,7 @@
         <activity
             android:name=".Controller.MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/MyTheme"
+            android:theme="@style/Theme.QuizApp"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
 
