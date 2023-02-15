@@ -14,7 +14,11 @@
         tools:targetApi="31">
         <activity
             android:name=".Controller.MainActivity"
-            android:exported="true">
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
