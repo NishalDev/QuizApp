@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv_app_name"
-        android:layout_marginBottom="31dp"
+        android:layout_marginBottom="41dp"
         android:text="QuizApp"
         android:gravity="center"
         android:textSize="35sp"
