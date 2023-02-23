@@ -27,7 +27,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="@android:color/white"
-        app:cardCornerRadius="8dp"
+        app:cardCornerRadius="25dp"
         app:cardElevation="5dp"
         >
         <LinearLayout
@@ -43,7 +43,6 @@
                 android:textColor="@android:color/black"
                 android:textSize="35sp"
                 android:textStyle="bold">
-
             </TextView>
             <TextView
                 android:layout_width="match_parent"
@@ -60,6 +59,7 @@
                 android:layout_marginTop="20dp"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                 <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/ed_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Name"
