@@ -28,11 +28,13 @@
 
         <ImageView
             android:id="@+id/iv_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="395dp"
+            android:layout_height="192dp"
             android:layout_marginTop="16dp"
             android:contentDescription="Quiz Image"
-            tools:src="@drawable/germany"></ImageView>
+            tools:src="@drawable/germany">
+        </ImageView>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +59,7 @@
                 android:gravity="center"
                 android:padding="15dp"
                 android:textSize="14sp"
-                android:text="0/9">
+                tools:text="0/9">
             </TextView>
 
         </LinearLayout>
@@ -106,8 +108,8 @@
             android:textColor="#7A8089"
             android:textSize="18sp"
             tools:text="Apple"/>
-
         <Button
+            android:id="@+id/btn_submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -116,6 +118,5 @@
             android:textColor="@android:color/white"
             android:textSize="18sp"
             android:textStyle="bold"/>
-
     </LinearLayout>
 </ScrollView>
