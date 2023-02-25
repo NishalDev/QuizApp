@@ -49,7 +49,7 @@
                 android:indeterminate="false"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:max="9"
+                android:max="6"
                 android:minHeight="50dp"
                 android:progress="0"/>
             <TextView
@@ -59,7 +59,7 @@
                 android:gravity="center"
                 android:padding="15dp"
                 android:textSize="14sp"
-                tools:text="0/9">
+                tools:text="0/6">
             </TextView>
 
         </LinearLayout>
