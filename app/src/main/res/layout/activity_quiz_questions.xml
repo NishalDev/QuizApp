@@ -21,10 +21,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
-            tools:text="what country does this country belong to?"
             android:textColor="#363A43"
-            android:textSize="22sp">
-        </TextView>
+            android:textSize="22sp"
+            tools:text="what country does this country belong to?"></TextView>
 
         <ImageView
             android:id="@+id/iv_image"
@@ -32,26 +31,26 @@
             android:layout_height="192dp"
             android:layout_marginTop="16dp"
             android:contentDescription="Quiz Image"
-            tools:src="@drawable/germany">
-        </ImageView>
+            tools:src="@drawable/germany"></ImageView>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginTop="16dp"
             android:gravity="center_vertical"
-            >
+            android:orientation="horizontal">
+
             <ProgressBar
                 android:id="@+id/progress_bar"
-                android:layout_width="0dp"
                 style="?android:attr/progressBarStyleHorizontal"
-                android:indeterminate="false"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:indeterminate="false"
                 android:max="6"
                 android:minHeight="50dp"
-                android:progress="0"/>
+                android:progress="0" />
+
             <TextView
                 android:id="@+id/tv_progress"
                 android:layout_width="wrap_content"
@@ -59,8 +58,7 @@
                 android:gravity="center"
                 android:padding="15dp"
                 android:textSize="14sp"
-                tools:text="0/6">
-            </TextView>
+                tools:text="0/6"></TextView>
 
         </LinearLayout>
 
@@ -74,7 +72,8 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            tools:text="Apple"/>
+            tools:text="Apple" />
+
         <TextView
             android:id="@+id/tv_option_two"
             android:layout_width="match_parent"
@@ -85,7 +84,8 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            tools:text="Apple"/>
+            tools:text="Apple" />
+
         <TextView
             android:id="@+id/tv_option_three"
             android:layout_width="match_parent"
@@ -96,7 +96,8 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            tools:text="Apple"/>
+            tools:text="Apple" />
+
         <TextView
             android:id="@+id/tv_option_four"
             android:layout_width="match_parent"
@@ -107,16 +108,17 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            tools:text="Apple"/>
+            tools:text="Apple" />
+
         <Button
             android:id="@+id/btn_submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="SUBMIT"
             android:background="@color/design_default_color_primary"
+            android:text="SUBMIT"
             android:textColor="@android:color/white"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 </ScrollView>
